@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0A60403288022EAC2F6B00 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 838B9FAAB2B061A4EC9378C3 /* libPods.a */; };
+		E1ECF8171C293EF400492395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF8161C293EF400492395 /* main.m */; };
+		E1ECF81A1C293EF400492395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF8191C293EF400492395 /* AppDelegate.m */; };
+		E1ECF81D1C293EF400492395 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF81C1C293EF400492395 /* ViewController.m */; };
+		E1ECF8201C293EF400492395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1ECF81E1C293EF400492395 /* Main.storyboard */; };
+		E1ECF8231C293EF400492395 /* sikuDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF8211C293EF400492395 /* sikuDemo.xcdatamodeld */; };
+		E1ECF8251C293EF400492395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1ECF8241C293EF400492395 /* Assets.xcassets */; };
+		E1ECF8281C293EF400492395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1ECF8261C293EF400492395 /* LaunchScreen.storyboard */; };
+		E1ECF8331C293EF400492395 /* sikuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF8321C293EF400492395 /* sikuDemoTests.m */; };
+		E1ECF83E1C293EF400492395 /* sikuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF83D1C293EF400492395 /* sikuDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1ECF82F1C293EF400492395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1ECF80A1C293EF400492395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1ECF8111C293EF400492395;
+			remoteInfo = sikuDemo;
+		};
+		E1ECF83A1C293EF400492395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1ECF80A1C293EF400492395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1ECF8111C293EF400492395;
+			remoteInfo = sikuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17D07658B4DC1925CC5FA2A0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2CB42728D9D9E269D322BC00 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		838B9FAAB2B061A4EC9378C3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1ECF8121C293EF400492395 /* sikuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sikuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1ECF8161C293EF400492395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1ECF8181C293EF400492395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1ECF8191C293EF400492395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1ECF81B1C293EF400492395 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1ECF81C1C293EF400492395 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1ECF81F1C293EF400492395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1ECF8221C293EF400492395 /* sikuDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sikuDemo.xcdatamodel; sourceTree = "<group>"; };
+		E1ECF8241C293EF400492395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1ECF8271C293EF400492395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1ECF8291C293EF400492395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1ECF82E1C293EF400492395 /* sikuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sikuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1ECF8321C293EF400492395 /* sikuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sikuDemoTests.m; sourceTree = "<group>"; };
+		E1ECF8341C293EF400492395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1ECF8391C293EF400492395 /* sikuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sikuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1ECF83D1C293EF400492395 /* sikuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sikuDemoUITests.m; sourceTree = "<group>"; };
+		E1ECF83F1C293EF400492395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1ECF80F1C293EF400492395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0A60403288022EAC2F6B00 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ECF82B1C293EF400492395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ECF8361C293EF400492395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A8653E65453E7984FE25094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				838B9FAAB2B061A4EC9378C3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23DB19BBE4D293050E66CB1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D07658B4DC1925CC5FA2A0 /* Pods.debug.xcconfig */,
+				2CB42728D9D9E269D322BC00 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1ECF8091C293EF400492395 = {
+			isa = PBXGroup;
+			children = (
+				E1ECF8141C293EF400492395 /* sikuDemo */,
+				E1ECF8311C293EF400492395 /* sikuDemoTests */,
+				E1ECF83C1C293EF400492395 /* sikuDemoUITests */,
+				E1ECF8131C293EF400492395 /* Products */,
+				23DB19BBE4D293050E66CB1B /* Pods */,
+				1A8653E65453E7984FE25094 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1ECF8131C293EF400492395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1ECF8121C293EF400492395 /* sikuDemo.app */,
+				E1ECF82E1C293EF400492395 /* sikuDemoTests.xctest */,
+				E1ECF8391C293EF400492395 /* sikuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1ECF8141C293EF400492395 /* sikuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E1ECF8181C293EF400492395 /* AppDelegate.h */,
+				E1ECF8191C293EF400492395 /* AppDelegate.m */,
+				E1ECF81B1C293EF400492395 /* ViewController.h */,
+				E1ECF81C1C293EF400492395 /* ViewController.m */,
+				E1ECF81E1C293EF400492395 /* Main.storyboard */,
+				E1ECF8241C293EF400492395 /* Assets.xcassets */,
+				E1ECF8261C293EF400492395 /* LaunchScreen.storyboard */,
+				E1ECF8291C293EF400492395 /* Info.plist */,
+				E1ECF8211C293EF400492395 /* sikuDemo.xcdatamodeld */,
+				E1ECF8151C293EF400492395 /* Supporting Files */,
+			);
+			path = sikuDemo;
+			sourceTree = "<group>";
+		};
+		E1ECF8151C293EF400492395 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1ECF8161C293EF400492395 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1ECF8311C293EF400492395 /* sikuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1ECF8321C293EF400492395 /* sikuDemoTests.m */,
+				E1ECF8341C293EF400492395 /* Info.plist */,
+			);
+			path = sikuDemoTests;
+			sourceTree = "<group>";
+		};
+		E1ECF83C1C293EF400492395 /* sikuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1ECF83D1C293EF400492395 /* sikuDemoUITests.m */,
+				E1ECF83F1C293EF400492395 /* Info.plist */,
+			);
+			path = sikuDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1ECF8111C293EF400492395 /* sikuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1ECF8421C293EF400492395 /* Build configuration list for PBXNativeTarget "sikuDemo" */;
+			buildPhases = (
+				692173FBA74A0D4BBCEB9F10 /* Check Pods Manifest.lock */,
+				E1ECF80E1C293EF400492395 /* Sources */,
+				E1ECF80F1C293EF400492395 /* Frameworks */,
+				E1ECF8101C293EF400492395 /* Resources */,
+				FECA0AF0CEDB861702F95F17 /* Embed Pods Frameworks */,
+				DD69BE87C37DF0A863B18310 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sikuDemo;
+			productName = sikuDemo;
+			productReference = E1ECF8121C293EF400492395 /* sikuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1ECF82D1C293EF400492395 /* sikuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1ECF8451C293EF400492395 /* Build configuration list for PBXNativeTarget "sikuDemoTests" */;
+			buildPhases = (
+				E1ECF82A1C293EF400492395 /* Sources */,
+				E1ECF82B1C293EF400492395 /* Frameworks */,
+				E1ECF82C1C293EF400492395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1ECF8301C293EF400492395 /* PBXTargetDependency */,
+			);
+			name = sikuDemoTests;
+			productName = sikuDemoTests;
+			productReference = E1ECF82E1C293EF400492395 /* sikuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1ECF8381C293EF400492395 /* sikuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1ECF8481C293EF400492395 /* Build configuration list for PBXNativeTarget "sikuDemoUITests" */;
+			buildPhases = (
+				E1ECF8351C293EF400492395 /* Sources */,
+				E1ECF8361C293EF400492395 /* Frameworks */,
+				E1ECF8371C293EF400492395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1ECF83B1C293EF400492395 /* PBXTargetDependency */,
+			);
+			name = sikuDemoUITests;
+			productName = sikuDemoUITests;
+			productReference = E1ECF8391C293EF400492395 /* sikuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1ECF80A1C293EF400492395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "齐冲";
+				TargetAttributes = {
+					E1ECF8111C293EF400492395 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Y2UF96JJBK;
+					};
+					E1ECF82D1C293EF400492395 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E1ECF8111C293EF400492395;
+					};
+					E1ECF8381C293EF400492395 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E1ECF8111C293EF400492395;
+					};
+				};
+			};
+			buildConfigurationList = E1ECF80D1C293EF400492395 /* Build configuration list for PBXProject "sikuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1ECF8091C293EF400492395;
+			productRefGroup = E1ECF8131C293EF400492395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1ECF8111C293EF400492395 /* sikuDemo */,
+				E1ECF82D1C293EF400492395 /* sikuDemoTests */,
+				E1ECF8381C293EF400492395 /* sikuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1ECF8101C293EF400492395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1ECF8281C293EF400492395 /* LaunchScreen.storyboard in Resources */,
+				E1ECF8251C293EF400492395 /* Assets.xcassets in Resources */,
+				E1ECF8201C293EF400492395 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ECF82C1C293EF400492395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ECF8371C293EF400492395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		692173FBA74A0D4BBCEB9F10 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD69BE87C37DF0A863B18310 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FECA0AF0CEDB861702F95F17 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1ECF80E1C293EF400492395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1ECF81D1C293EF400492395 /* ViewController.m in Sources */,
+				E1ECF81A1C293EF400492395 /* AppDelegate.m in Sources */,
+				E1ECF8231C293EF400492395 /* sikuDemo.xcdatamodeld in Sources */,
+				E1ECF8171C293EF400492395 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ECF82A1C293EF400492395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1ECF8331C293EF400492395 /* sikuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ECF8351C293EF400492395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1ECF83E1C293EF400492395 /* sikuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1ECF8301C293EF400492395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1ECF8111C293EF400492395 /* sikuDemo */;
+			targetProxy = E1ECF82F1C293EF400492395 /* PBXContainerItemProxy */;
+		};
+		E1ECF83B1C293EF400492395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1ECF8111C293EF400492395 /* sikuDemo */;
+			targetProxy = E1ECF83A1C293EF400492395 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1ECF81E1C293EF400492395 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1ECF81F1C293EF400492395 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1ECF8261C293EF400492395 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1ECF8271C293EF400492395 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1ECF8401C293EF400492395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1ECF8411C293EF400492395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1ECF8431C293EF400492395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D07658B4DC1925CC5FA2A0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lingmin Kong (S8M792FFMZ)";
+				INFOPLIST_FILE = sikuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunboxsoft.liuwenjie.sikuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1ECF8441C293EF400492395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB42728D9D9E269D322BC00 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lingmin Kong (S8M792FFMZ)";
+				INFOPLIST_FILE = sikuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunboxsoft.liuwenjie.sikuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1ECF8461C293EF400492395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sikuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunboxsoft.liuwenjie.sikuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sikuDemo.app/sikuDemo";
+			};
+			name = Debug;
+		};
+		E1ECF8471C293EF400492395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sikuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunboxsoft.liuwenjie.sikuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sikuDemo.app/sikuDemo";
+			};
+			name = Release;
+		};
+		E1ECF8491C293EF400492395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sikuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunboxsoft.liuwenjie.sikuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sikuDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E1ECF84A1C293EF400492395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sikuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunboxsoft.liuwenjie.sikuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sikuDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1ECF80D1C293EF400492395 /* Build configuration list for PBXProject "sikuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ECF8401C293EF400492395 /* Debug */,
+				E1ECF8411C293EF400492395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1ECF8421C293EF400492395 /* Build configuration list for PBXNativeTarget "sikuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ECF8431C293EF400492395 /* Debug */,
+				E1ECF8441C293EF400492395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1ECF8451C293EF400492395 /* Build configuration list for PBXNativeTarget "sikuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ECF8461C293EF400492395 /* Debug */,
+				E1ECF8471C293EF400492395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1ECF8481C293EF400492395 /* Build configuration list for PBXNativeTarget "sikuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ECF8491C293EF400492395 /* Debug */,
+				E1ECF84A1C293EF400492395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1ECF8211C293EF400492395 /* sikuDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1ECF8221C293EF400492395 /* sikuDemo.xcdatamodel */,
+			);
+			currentVersion = E1ECF8221C293EF400492395 /* sikuDemo.xcdatamodel */;
+			path = sikuDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1ECF80A1C293EF400492395 /* Project object */;
+}
