@@ -10,6 +10,8 @@
 typedef void (^segmentSelectedBlokc)(NSInteger index);
 @interface SQMySegment : UIView
 @property (nonatomic,copy)segmentSelectedBlokc block;
+@property (nonatomic,strong) UIColor *normalTextColor;
+@property (nonatomic,strong) UIColor *selectTextColor;
 - (instancetype)initWithFrame:(CGRect)frame andTitleArrary:(NSArray *)titleArrary andSelectedBlock:(segmentSelectedBlokc)block;
-- (void)makeLineGoWithIndex:(NSInteger)index;
+- (void)makeLineGoWithIndex:(CGFloat)proportion;
 @end

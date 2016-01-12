@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9A0A60403288022EAC2F6B00 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 838B9FAAB2B061A4EC9378C3 /* libPods.a */; };
 		E13F673F1C438D78004EA14C /* SQMySegment.m in Sources */ = {isa = PBXBuildFile; fileRef = E13F673E1C438D78004EA14C /* SQMySegment.m */; };
+		E1A054A01C44F6BA001A4C31 /* SQSearchHotVc.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A0549F1C44F6BA001A4C31 /* SQSearchHotVc.m */; };
 		E1ECF8171C293EF400492395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF8161C293EF400492395 /* main.m */; };
 		E1ECF81A1C293EF400492395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF8191C293EF400492395 /* AppDelegate.m */; };
 		E1ECF81D1C293EF400492395 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF81C1C293EF400492395 /* ViewController.m */; };
@@ -44,6 +45,8 @@
 		E13F673D1C438D78004EA14C /* SQMySegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMySegment.h; sourceTree = "<group>"; };
 		E13F673E1C438D78004EA14C /* SQMySegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQMySegment.m; sourceTree = "<group>"; };
 		E13F67401C43C882004EA14C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E1A0549E1C44F6BA001A4C31 /* SQSearchHotVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSearchHotVc.h; sourceTree = "<group>"; };
+		E1A0549F1C44F6BA001A4C31 /* SQSearchHotVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSearchHotVc.m; sourceTree = "<group>"; };
 		E1ECF8121C293EF400492395 /* sikuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sikuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1ECF8161C293EF400492395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1ECF8181C293EF400492395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				E1ECF8191C293EF400492395 /* AppDelegate.m */,
 				E1ECF81B1C293EF400492395 /* ViewController.h */,
 				E1ECF81C1C293EF400492395 /* ViewController.m */,
+				E1A0549E1C44F6BA001A4C31 /* SQSearchHotVc.h */,
+				E1A0549F1C44F6BA001A4C31 /* SQSearchHotVc.m */,
 				E13F673D1C438D78004EA14C /* SQMySegment.h */,
 				E13F673E1C438D78004EA14C /* SQMySegment.m */,
 				E13F67401C43C882004EA14C /* PrefixHeader.pch */,
@@ -356,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A054A01C44F6BA001A4C31 /* SQSearchHotVc.m in Sources */,
 				E1ECF81D1C293EF400492395 /* ViewController.m in Sources */,
 				E1ECF81A1C293EF400492395 /* AppDelegate.m in Sources */,
 				E1ECF8231C293EF400492395 /* sikuDemo.xcdatamodeld in Sources */,
@@ -503,6 +509,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Lingmin Kong (S8M792FFMZ)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/sikuDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = sikuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunboxsoft.liuwenjie.sikuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,6 +524,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Lingmin Kong (S8M792FFMZ)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/sikuDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = sikuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunboxsoft.liuwenjie.sikuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
