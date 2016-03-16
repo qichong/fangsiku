@@ -1,32 +1,22 @@
 //
-//  SQSearchHotVc.m
+//  SQMysearchController.m
 //  sikuDemo
 //
-//  Created by 齐冲 on 16/1/12.
+//  Created by 齐冲 on 16/1/14.
 //  Copyright © 2016年 齐冲. All rights reserved.
 //
 
-#import "SQSearchHotVc.h"
+#import "SQMysearchController.h"
 
-@interface SQSearchHotVc ()
+@interface SQMysearchController ()
 
 @end
 
-@implementation SQSearchHotVc
+@implementation SQMysearchController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = KThemColor;
-    
-    
-    
-    
     // Do any additional setup after loading the view.
-}
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

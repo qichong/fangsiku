@@ -19,6 +19,7 @@
 		E1ECF8281C293EF400492395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1ECF8261C293EF400492395 /* LaunchScreen.storyboard */; };
 		E1ECF8331C293EF400492395 /* sikuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF8321C293EF400492395 /* sikuDemoTests.m */; };
 		E1ECF83E1C293EF400492395 /* sikuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ECF83D1C293EF400492395 /* sikuDemoUITests.m */; };
+		E1FC6F7F1C47A26500B08988 /* SQMysearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FC6F7E1C47A26500B08988 /* SQMysearchController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		E1ECF8391C293EF400492395 /* sikuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sikuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1ECF83D1C293EF400492395 /* sikuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sikuDemoUITests.m; sourceTree = "<group>"; };
 		E1ECF83F1C293EF400492395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FC6F7D1C47A26500B08988 /* SQMysearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMysearchController.h; sourceTree = "<group>"; };
+		E1FC6F7E1C47A26500B08988 /* SQMysearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQMysearchController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 				E1A0549F1C44F6BA001A4C31 /* SQSearchHotVc.m */,
 				E13F673D1C438D78004EA14C /* SQMySegment.h */,
 				E13F673E1C438D78004EA14C /* SQMySegment.m */,
+				E1FC6F7D1C47A26500B08988 /* SQMysearchController.h */,
+				E1FC6F7E1C47A26500B08988 /* SQMysearchController.m */,
 				E13F67401C43C882004EA14C /* PrefixHeader.pch */,
 				E1ECF81E1C293EF400492395 /* Main.storyboard */,
 				E1ECF8241C293EF400492395 /* Assets.xcassets */,
@@ -361,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FC6F7F1C47A26500B08988 /* SQMysearchController.m in Sources */,
 				E1A054A01C44F6BA001A4C31 /* SQSearchHotVc.m in Sources */,
 				E1ECF81D1C293EF400492395 /* ViewController.m in Sources */,
 				E1ECF81A1C293EF400492395 /* AppDelegate.m in Sources */,
